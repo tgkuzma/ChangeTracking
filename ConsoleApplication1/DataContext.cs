@@ -11,6 +11,8 @@ namespace ConsoleApplication1
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            //modelBuilder.Entity<Client>()
+            //    .HasOptional(s => s.SalesPerson);
         }
 
         public DbSet<Client> Clients { get; set; }
