@@ -4,6 +4,6 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public SalesPerson SalesPerson { get; set; }
+        public virtual SalesPerson SalesPerson { get; set; }
     }
 }
